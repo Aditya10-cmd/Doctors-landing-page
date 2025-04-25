@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="text" placeholder="Search Symptoms, Doctors, Specialists, Clinics">
+        <button>🔍</button>
+    </header>
+    
+      <main>
+        <aside class="filters">
+          <h3>Sort by</h3>
+          <label><input type="radio" name="sort"> Price: Low-High</label><br>
+          <label><input type="radio" name="sort"> Experience - Most Experience first</label>
+    
+          <h3>Filters</h3>
+          <div class="filter-group">
+            <h4>Specialities</h4>
+            <input type="text" placeholder="Search...">
+            <label><input type="checkbox"> Neurologist</label><br>
+            <label><input type="checkbox"> Oncologist</label><br>
+            <label><input type="checkbox"> Ayurveda</label><br>
+            <label><input type="checkbox"> Homeopath</label>
+          </div>
+    
+          <div class="filter-group">
+            <h4>Mode of consultation</h4>
+            <label><input type="radio" name="mode"> Video Consultation</label><br>
+            <label><input type="radio" name="mode" checked> In-clinic Consultation</label><br>
+            <label><input type="radio" name="mode"> All</label>
+          </div>
+        </aside>
+    
+        <section class="doctors">
+          <div class="doctor-card">
+            <img src="https://i.pinimg.com/736x/8a/2e/76/8a2e760075b654c502e6f58b9cfa176f.jpg" alt="Doctor">
+            <div class="details">
+              <h4>Dr. Munaf Inamdar</h4>
+              <p>General Physician<br>MBBS, MD-General Medicine<br>27 yrs exp.</p>
+              <p>Apex Multispeciality and Mater...<br>📍 Kondhawa Khurd</p>
+            </div>
+            <div class="book">
+              <p>₹ 600</p>
+              <button>Book Appointment</button>
+            </div>
+          </div>
+    
+          <!-- 2nd doc -->
+          <div class="doctor-card">
+            <img src="https://i.pinimg.com/736x/76/3c/f2/763cf2523b6061e4a5d804dc7f39efcf.jpg" alt="Doctor">
+            <div class="details">
+              <h4>Dr. Subhash Bajaj</h4>
+              <p>General Physician<br>MBBS, Diploma in Cardiology<br>11 yrs exp.</p>
+              <p>Dr. Bajaj Wellness Clinic<br>📍 Wanowarie</p>
+            </div>
+            <div class="book">
+              <p>₹ 600</p>
+              <button>Book Appointment</button>
+            </div>
+          </div>
+    
+          <!-- 3rd doc -->
+          <div class="doctor-card">
+            <img src="https://i.pinimg.com/736x/ca/15/d5/ca15d5c0321d55036907e18af2d85bdc.jpg" alt="Doctor">
+            <div class="details">
+              <h4>Dr. Mufaddal Zakir</h4>
+              <p>General Physician<br>MBBS<br>27 yrs exp.</p>
+              <p>Sparsh Polyclinic..<br>📍 Wanwadi</p>
+            </div>
+            <div class="book">
+              <p>₹ 600</p>
+              <button>Book Appointment</button>
+            </div>
+          </div>
+
+          <!-- 4th doc -->
+          <div class="doctor-card">
+            <img src="https://i.pinimg.com/736x/16/56/9e/16569ed0856efc9fa61922fa04622c68.jpg" alt="Doctor">
+            <div class="details">
+              <h4>Dr. Ajay Gangoli</h4>
+              <p>General Physician<br>MBBS<br>34 yrs exp.</p>
+              <p>Niramaya Clinic<br>📍 Wanowrie</p>
+            </div>
+            <div class="book">
+              <p>₹ 600</p>
+              <button>Book Appointment</button>
+            </div>
+          </div>
+        </section>
+      </main>
+</body>
+</html>
